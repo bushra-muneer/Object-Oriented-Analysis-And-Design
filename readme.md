@@ -4,7 +4,7 @@
 
 **Purpose**
 
-This project is serving as a food ordering system based on desktop application. This software will help the Restaurants to manage their orders supplying the customers with online order functionality. This will lead to quick and easy management.
+This project is serving as a food ordering system based on desktop application in c# using visual studio and sql server management studio as tools. This software will help the Restaurants to manage their orders supplying the customers with online order functionality. This will lead to quick and easy management.
 
 **Software Scope**
 
