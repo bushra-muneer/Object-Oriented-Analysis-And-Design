@@ -1,6 +1,9 @@
 **ONLINE FOOD ORDERING SYSTEM**
+
 **Introduction**
+
 **Purpose**
+
 This project is serving as a food ordering system based on desktop application. This software will help the Restaurants to manage their orders supplying the customers with online order functionality. This will lead to quick and easy management.
 **Software Scope**
 The objective of this software is to improve the efficiency of food ordering, time management, accuracy and simplify the ordering system from both ends i.e. User and Admin/Customer and Manager. Customer can view the available items and will have a visual confirmation of their orders correctly.
