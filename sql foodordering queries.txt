@@ -1,0 +1,22 @@
+create table Users(UserId int primary key identity (1,1),UserName nvarchar(50),Contact nvarchar(50), Email nvarchar(50),
+Password nvarchar(50),Type nvarchar(50));
+
+create table Order_(OrderId int primary key identity (1,1),ItemName nvarchar(50),Rs int,Quantity int,ItemTotall int);
+
+create table Manue(ManueId int primary key identity (1,1),ManueCategory nvarchar(50),ManueName nvarchar(50),Price int, Image image);
+
+create table FeedBack(UserId int foreign key References Users(UserId),Feedback nvarchar(MAX));
+
+create table OrderMaster (UserId int foreign key References Users(UserId),UserName nvarchar(50),
+OrderId int foreign key References Order_(OrderId),
+Totall int,Date nvarchar(50),Status nvarchar(50));
+
+create table BridgeTable(OrderId int foreign key References Order_(OrderId),UserId int foreign key References Users(UserId));
+
+
+select * from Users
+select * from Order_
+select * from Manue
+select * from FeedBack
+select * from OrderMaster
+select * from BridgeTable
