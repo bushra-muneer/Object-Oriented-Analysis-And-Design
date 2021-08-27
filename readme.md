@@ -4,7 +4,7 @@
 
 **Purpose**
 
-This project is serving as a food ordering system based on desktop application in c# using visual studio and sql server management studio as tools. This software will help the Restaurants to manage their orders supplying the customers with online order functionality. This will lead to quick and easy management.
+This project is serving as a food ordering system based on desktop application in C# using visual studio and sql server management studio as tools. This software will help the Restaurants to manage their orders supplying the customers with online order functionality. This will lead to quick and easy management.
 
 **Software Scope**
 
@@ -44,5 +44,13 @@ This project consists of two actors i.e. Manager/Admin and Customer. Firstly, bo
 The admin can perform operations like insert, update, delete, and as well as search. Admin can also view customers and order details.
 Furthermore, Customer is able to view menu and as well as search for the food item and can place order. If customer wants to cancel the order he/she can simply do it by clicking the cancel order the status for order will be changed to canceled. Admin can also cancel the order if it is out of stock or currently not offering.  Customer is able to give feedback whereas admin can view feedback of customer and in the end they can logout.
 
+**Language**
+
+C# 
+
+**Tools**
+
+Visual studio 
+Sql server management studio 
 
 **SRS Include screens and all the necessary diagrams for software specifications**
