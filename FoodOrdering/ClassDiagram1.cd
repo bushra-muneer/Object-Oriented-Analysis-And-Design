@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="FoodOrdering_ooad_.Entitty.login" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAQAgAAAAAAgAAAAFAEAAAAAQAgIAAAA=</HashCode>
+      <FileName>Entitty\login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.placeorder" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAAQAAAAAAAAgAAAAAAAACACgAAAAAA=</HashCode>
+      <FileName>Entitty\placeorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.paybill" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQgAAAABAAAAAAAAAAAEAAAUAAAQAAAAA=</HashCode>
+      <FileName>Entitty\paybill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.viewcustomer" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACAAAAAAAQAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entitty\viewcustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.viewreceipt" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAABABAAAAAAACAEAAAAQAAAAACAAAAAARAAAIA=</HashCode>
+      <FileName>Entitty\viewreceipt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.vieworder" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAABAAAAAAAAQAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entitty\vieworder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.manageitem" Collapsed="true">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAVAAAAAAAAIAAAQAAAAAAABBAAAAAAAAAAA=</HashCode>
+      <FileName>Entitty\manageitem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.cancelorder" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQARAAAAA=</HashCode>
+      <FileName>Entitty\cancelorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Admin_CancelOrder" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAACAAABEAAACAQAAOAgAaAAAAEGCAAYAAAAA=</HashCode>
+      <FileName>Admin_CancelOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.CancelOrder" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgQAACAAABEAAACAQAA2AAAqAAAAEPCAAYAAIAA=</HashCode>
+      <FileName>CancelOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Connection" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Form1" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABIhAAACAAADAAAACASABCAIAYAAAAEGAAAQJAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.GIvfFeedback" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAABAAAACAQAACIAAgAAAAABAAAAAAAAI=</HashCode>
+      <FileName>GIvfFeedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.ManageItem" Collapsed="true">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8CAAAgQAACAAABEQAACAQADiA8A5AAAAEHAOAcBAAEA=</HashCode>
+      <FileName>ManageItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.PayBill" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wAAAgQAACAAABEAAACAQECyAwA4AAAAAPAAAYBACDA=</HashCode>
+      <FileName>PayBill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.PlaceOrder" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wAAI5QABCIgAREQABCAQAgCAMQ7AAwCwPgvAQRAADA=</HashCode>
+      <FileName>PlaceOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Program" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Regester" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABIhAAACAAATEQAACAQABCIAAIAAQAEEAgAQJAAAA=</HashCode>
+      <FileName>Regester.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Regester1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.ViewCustomer" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECABAgQAACAAABEAAACAQADiAwAgAAAAABAEAYAAAAA=</HashCode>
+      <FileName>ViewCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.ViewFeedback" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQBACAAABAAAACAQACCAwAAAAAAAAIAAIAAAAI=</HashCode>
+      <FileName>ViewFeedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.VIewOrder" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8DAAEhQBACAAABEAAACASABeAsA4AAAAEPANAYBAAAA=</HashCode>
+      <FileName>VIewOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.ViewRecipt" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0CIBAgQBACAAABEAAACAQAD+IwA6AAAAEFCAAYAAAAA=</HashCode>
+      <FileName>ViewRecipt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.VIewRecipt_c" Collapsed="true">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAgQAACAAABEAAACAQADuIwAKAAAAEECAAYAAAAA=</HashCode>
+      <FileName>VIewRecipt_c.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.cancelorderController" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAQAAAAAAA=</HashCode>
+      <FileName>Controller\cancelorderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.loginController" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAIAAAAAAAAE=</HashCode>
+      <FileName>Controller\loginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.manageitemController" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAADAAEAAAAAAAQAAAQAEAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\manageitemController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.paybillController" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAJAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\paybillController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.placeorderController" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAMAAAAAAAAABAAQAICUAAIAAAAAAI=</HashCode>
+      <FileName>Controller\placeorderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.viewcutomerController" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Controller\viewcutomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.vieworderController" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAgAAAAAAAIAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\vieworderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Controller.viewreciptController" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Controller\viewreciptController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.DbServices.DBCustomer" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>DbServices\DBCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.DbServices.DBFeedBack" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DbServices\DBFeedBack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.DbServices.DBManue" Collapsed="true">
+    <Position X="1.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQ0AACQAAgAEEAAAQAAAAAEAAAAACkAAAAAAAAAgAA=</HashCode>
+      <FileName>DbServices\DBManue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.DbServices.DBOrder" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQBAAAAAAAAAAAAADAEAAAAQAAAAACAAAAQARAAAAA=</HashCode>
+      <FileName>DbServices\DBOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.DbServices.DBPayBill" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAEAAAAAAAAAAFAAAAAEAAAQAAAgA=</HashCode>
+      <FileName>DbServices\DBPayBill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.setting" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entitty\setting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Entitty.ViewRecipt" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entitty\ViewRecipt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Properties.Resources" Collapsed="true">
+    <Position X="16" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgCQQAAAAAAAAEAAJEIAQAwAAAQCAAAABAYYAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrdering_ooad_.Properties.Settings" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

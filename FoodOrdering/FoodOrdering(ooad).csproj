@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21E5505D-A5A5-416F-9C3B-9BB50EF72D12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FoodOrdering_ooad_</RootNamespace>
+    <AssemblyName>FoodOrdering%28ooad%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_CancelOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_CancelOrder.Designer.cs">
+      <DependentUpon>Admin_CancelOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelOrder.Designer.cs">
+      <DependentUpon>CancelOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Controller\cancelorderController.cs" />
+    <Compile Include="Controller\loginController.cs" />
+    <Compile Include="Controller\manageitemController.cs" />
+    <Compile Include="Controller\paybillController.cs" />
+    <Compile Include="Controller\placeorderController.cs" />
+    <Compile Include="Controller\viewcutomerController.cs" />
+    <Compile Include="Controller\vieworderController.cs" />
+    <Compile Include="Controller\viewreciptController.cs" />
+    <Compile Include="DbServices\DBCustomer.cs" />
+    <Compile Include="DbServices\DBFeedBack.cs" />
+    <Compile Include="DbServices\DBManue.cs" />
+    <Compile Include="DbServices\DBOrder.cs" />
+    <Compile Include="DbServices\DBPayBill.cs" />
+    <Compile Include="Entitty\cancelorder.cs" />
+    <Compile Include="Entitty\login.cs" />
+    <Compile Include="Entitty\manageitem.cs" />
+    <Compile Include="Entitty\paybill.cs" />
+    <Compile Include="Entitty\placeorder.cs" />
+    <Compile Include="Entitty\setting.cs" />
+    <Compile Include="Entitty\viewcustomer.cs" />
+    <Compile Include="Entitty\vieworder.cs" />
+    <Compile Include="Entitty\viewreceipt.cs" />
+    <Compile Include="Entitty\ViewRecipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entitty\ViewRecipt.Designer.cs">
+      <DependentUpon>ViewRecipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GIvfFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GIvfFeedback.Designer.cs">
+      <DependentUpon>GIvfFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageItem.Designer.cs">
+      <DependentUpon>ManageItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayBill.Designer.cs">
+      <DependentUpon>PayBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.Designer.cs">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regester.Designer.cs">
+      <DependentUpon>Regester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomer.Designer.cs">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFeedback.Designer.cs">
+      <DependentUpon>ViewFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIewOrder.Designer.cs">
+      <DependentUpon>VIewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRecipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRecipt.Designer.cs">
+      <DependentUpon>ViewRecipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIewRecipt_c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIewRecipt_c.Designer.cs">
+      <DependentUpon>VIewRecipt_c.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_CancelOrder.resx">
+      <DependentUpon>Admin_CancelOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelOrder.resx">
+      <DependentUpon>CancelOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entitty\ViewRecipt.resx">
+      <DependentUpon>ViewRecipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GIvfFeedback.resx">
+      <DependentUpon>GIvfFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageItem.resx">
+      <DependentUpon>ManageItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayBill.resx">
+      <DependentUpon>PayBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaceOrder.resx">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Regester.resx">
+      <DependentUpon>Regester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomer.resx">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFeedback.resx">
+      <DependentUpon>ViewFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIewOrder.resx">
+      <DependentUpon>VIewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRecipt.resx">
+      <DependentUpon>ViewRecipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIewRecipt_c.resx">
+      <DependentUpon>VIewRecipt_c.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teaching-staff-ccf8a4287986db6654ea3d81aa01f6f8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\234f51ec9c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-99430_e-mail-png-hd-email-logo-png-hd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_2x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rtd-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500px-Oxygen480-actions-application-exit.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_485036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all_reports-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_1156040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49695-finance-symbol-of-four-currencies-on-a-hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_535134.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
